@@ -1,0 +1,33 @@
+.sidebar {
+  background-color: white;
+  /* width: 20%!important; */
+  height: 100vh;
+   position: fixed;
+  
+}
+
+.options {
+  list-style-type: none;
+  margin-top: 1rem;
+  
+  height: 100vh;
+}
+
+.option {
+  padding: 1rem;
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: 35%;
+}
+.btn{
+  
+  cursor: pointer;
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  left: 35%;
+}

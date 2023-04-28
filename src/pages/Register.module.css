@@ -1,0 +1,44 @@
+.container {
+    display: inline-block;
+    text-align: center;
+    width: 29rem;
+    height: 34.2rem;
+    border-radius: 20px;
+    margin-left: 27rem;
+    background-color: black;
+    color: white;
+  }
+
+  .error{
+    color: red;
+  }
+
+.icon {
+    float: left;
+    margin-top: 1.4rem;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+
+  .btn{
+    width: 12rem;
+    border-radius: 20px;
+    border: none;
+    height: 2rem;
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    border-radius: 0;
+    padding: 2rem 1rem;
+    }
+    
+    .icon {
+    margin-top: 1rem;
+    margin-left: 0;
+    }
+    }

@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+ 
+  .buttons {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  button {
+    border: none;
+    background-color: transparent;
+    color: #555;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  button.active {
+    background-color: #1da1f2;
+    color: #fff;
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    background-color:  #1DA1F2;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 150px;
+  }
+  .container h2,h4{
+    color: white;
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  button {
+    margin-right: 10px;
+  }
+  Link{
+    text-decoration:"none"
+  }
