@@ -1,0 +1,29 @@
+
+.main{
+    margin-left: 2rem;
+    border: 2px solid rgb(197, 191, 191);
+    width: 27rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    border: 2px solid white;
+    /* display: flex; */
+}
+
+.contain{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.more{
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    color: blue;
+}

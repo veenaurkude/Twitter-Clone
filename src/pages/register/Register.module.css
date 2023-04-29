@@ -5,7 +5,9 @@
     height: 34.2rem;
     border-radius: 20px;
     margin-left: 27rem;
+    /* margin-top: 2rem; */
     background-color: black;
+    border: 2px solid white;
     color: white;
   }
 
@@ -28,7 +30,7 @@
     font-size: 20px;
   }
 
-  @media only screen and (max-width: 768px) {
+  /* @media only screen and (max-width: 768px) {
     .container {
     width: 100%;
     margin: 0 auto;
@@ -41,4 +43,4 @@
     margin-top: 1rem;
     margin-left: 0;
     }
-    }
+    } */

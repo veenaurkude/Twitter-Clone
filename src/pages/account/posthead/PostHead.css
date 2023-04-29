@@ -5,8 +5,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    background-color: #fff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    /* border: 2px solid white; */
   }
 
  
@@ -14,22 +14,25 @@
     display: flex;
     align-items: center;
     width: 100%;
+    color: blue;
   }
   
   button {
-    border: none;
+    border: 1px solid white;
     background-color: transparent;
-    color: #555;
+    color: white;
     font-weight: bold;
     padding: 10px 20px;
     margin-right: 10px;
     cursor: pointer;
+   border-radius: 2rem;
     width: 50%;
   }
   
   button.active {
     background-color: #1da1f2;
-    color: #fff;
+    color: white;
     text-decoration: underline;
+   
   }
   

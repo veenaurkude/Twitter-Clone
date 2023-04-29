@@ -1,6 +1,5 @@
-import React from "react";
-import PostSection from "./PostSection";
-import PostHead from "./PostHead";
+import PostSection from "../postsection/PostSection";
+import PostHead from "../posthead/PostHead";
 import styles from "./Middle.module.css";
 const Middle = () => {
   return (

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useRecoilState } from "recoil";
-import { tweetData } from "./Atom";
-import { userData } from "./Atom";
+import { tweetData } from "../../RecoilAtom/Atom";
+import { userData } from "../../RecoilAtom/Atom";
 import { Avatar } from "@mui/material";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import styles from "./PostSection.module.css";

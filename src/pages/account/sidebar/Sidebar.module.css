@@ -1,16 +1,17 @@
+
+
 .sidebar {
-  background-color: white;
-  /* width: 20%!important; */
   height: 100vh;
-   position: fixed;
-  
+  /* position: fixed; */
+  /* width: 20px; */
+  /* border: 2px solid white; */
 }
 
 .options {
   list-style-type: none;
   margin-top: 1rem;
-  
   height: 100vh;
+  border: 1ps solid white;
 }
 
 .option {
@@ -20,14 +21,12 @@
   font-size: 24px;
   font-weight: bold;
   position: relative;
-  left: 35%;
+  border: 1ps solid white;
 }
 .btn{
-  
   cursor: pointer;
   display: flex;
   font-size: 24px;
   font-weight: bold;
-  position: relative;
-  left: 35%;
+  left: 10%;
 }

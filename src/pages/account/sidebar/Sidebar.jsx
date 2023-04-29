@@ -15,7 +15,7 @@ const LeftSideBar = () => {
       <ul className={styles.options}>
         <TwitterIcon
           className={styles.option}
-          sx={{ color: "#42a5f5", fontSize: "3rem" }}
+          sx={{ color: "#42a5f5", fontSize: "3rem" , marginLeft:0 }}
         />
         <li className={styles.option}>
           <HomeIcon sx={{ fontSize: 35, marginRight: 2 }} />
@@ -55,7 +55,8 @@ const LeftSideBar = () => {
           sx={{
             textTransform: "none",
             borderRadius: "5rem",
-            width: "50%",
+            width: "80%",
+            fontSize:'1.4rem' ,
             backgroundColor: "#42a5f5",
           }}
         >

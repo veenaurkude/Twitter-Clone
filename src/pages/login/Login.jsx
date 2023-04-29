@@ -3,21 +3,20 @@ import google from "./google.png";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { useNavigate } from "react-router-dom";
 import AppleIcon from "@mui/icons-material/Apple";
-
 import style from "./Login.module.css";
 import { useState } from "react";
 import { useRecoilState } from "recoil";
-import { isLogin } from "./Atom";
+import { isLogin } from "../recoilAtom/Atom";
 
 function Login() {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setpassword] = useState("");
   const [islogin, setlogin] = useRecoilState(isLogin);
-const [name ,setName] = useState('')
-const [phone , setPhone] = useState('')
-  
- const [errorEmail , setErrorEmail] = useState()
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+
+  const [errorEmail, setErrorEmail] = useState();
   const [errorPass, setErrorPass] = useState("");
 
   function handleLogin() {
@@ -67,8 +66,6 @@ const [phone , setPhone] = useState('')
     }
   };
 
-  
-  
   const validatePassword = () => {
     const regex =
       /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,20}$/;
@@ -86,7 +83,6 @@ const [phone , setPhone] = useState('')
     }
   };
 
- 
   return (
     <div className={style.container}>
       <div>
@@ -127,7 +123,7 @@ const [phone , setPhone] = useState('')
       </div>
       <br />
       <div>
-        <form >
+        <form>
           <TextField
             id="filled-basic"
             label="phone,email or username"
@@ -141,7 +137,7 @@ const [phone , setPhone] = useState('')
               "& input": { color: "white" },
             }}
             onChange={(e) => {
-              setEmail(e.target.value); 
+              setEmail(e.target.value);
             }}
           />
           <br />

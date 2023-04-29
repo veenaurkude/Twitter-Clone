@@ -1,6 +1,6 @@
 
 import './App.css'
-import Login  from './pages/Login'
+// import Login  from './pages/Login'
 // import Register from './pages/Register'
 // import { Register } from './components/Register'
 // import { Account } from './components/create account/Account'
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-     <Login />
+     {/* <Login /> */}
 
      {/* <Register/> */}
      {/* <Account/> */}
