@@ -1,0 +1,96 @@
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 97%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: black;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border:2px solid white;
+      border-radius: 2rem;
+    }
+    
+    .buttons {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    
+    button {
+      border: none;
+      background-color: transparent;
+      color: #555;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin-right: 10px;
+      cursor: pointer;
+      width: 50%;
+    }
+    
+    button.active {
+      background-color: #1da1f2;
+      color: #fff;
+      text-decoration: underline;
+    }
+    .postTweet{
+      display: flex;
+      margin-top: 10px;
+      width: 100%;
+      margin-left: 10px;
+      /* padding: 0px; */
+    }
+    .avatar {
+  
+      height:50px;
+      width: 50px;
+    }
+    .tweetInput{
+      width: 80%;
+    }
+    
+    .tweetInput input{
+      /* background-color: #f5f8fa; */
+      border-radius: 9999px;
+      border: none;
+      padding: 12px;
+      font-size: 18px;
+      width: 100%;
+      margin-bottom: 16px;
+    }
+    .btn{
+      width: 100%;
+      margin-left: 90px;
+    }
+    .Btns{
+      display: flex;
+      width: 100%;
+    }
+    .btn1{
+      /* border: 1px solid black; */
+      width: 80%;
+      margin-top: 10px;
+      margin-left: 76px;
+      cursor: pointer;
+    }
+    .btn2{
+      cursor: pointer;
+      /* border: 1px solid black; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      margin-left:290px;
+      text-align: center;
+    }
+    .lastBtn{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .lastBtn:hover{
+      background-color: #f6f3f3;
+    }
+    

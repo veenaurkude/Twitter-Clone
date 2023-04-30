@@ -1,0 +1,42 @@
+[
+  {
+    "id": "88980195-4d01-4505-8ccb-076c1106ae7b",
+    "content": "Aspernatur accusamus porro perspiciatis occaecati assumenda modi. Eaque nesciunt quisquam quidem enim rem. Ab corrupti atque vero quos sed facilis odit nemo voluptas. Illo distinctio dolore accusantium. Sequi deserunt qui debitis explicabo. Ipsa atque suscipit repudiandae velit architecto.",
+    "createdAt": "2022-09-10T07:47:45.804Z",
+    "image": "https://picsum.photos/1000/500?q=2",
+    "tweetedBy": {
+      "id": "a2b9f2ce-a4bf-45bd-a545-5ee996ffa451",
+      "name": "Verna Pouros"
+    },
+    "likeCount": 563,
+    "iscomment": false,
+    "commentCount": 504,
+    "isretweet": false,
+    "reTweetsCount": 63,
+    "isLiked": false,
+    "poll": 200,
+    "ispoll": false,
+    "share": 9,
+    "isshare": false
+  },
+  {
+    "id": "679150f6-22d9-4e76-baba-6d4eebc5e408",
+    "content": "Suscipit natus ipsam. Tempora quis natus quod. Ipsum ipsa blanditiis veritatis. Facere quam iure impedit dicta. Non tenetur eaque maiores sed similique rem temporibus.",
+    "createdAt": "2023-02-05T17:02:22.286Z",
+    "image": "https://picsum.photos/1000/500?q=3",
+    "tweetedBy": {
+      "id": "43264d80-d036-4119-b113-76b109d1d285",
+      "name": "Lorena Koelpin"
+    },
+    "likeCount": 432,
+    "iscomment": false,
+    "commentCount": 232,
+    "isretweet": false,
+    "reTweetsCount": 54,
+    "isLiked": false,
+    "poll": 675,
+    "ispoll": false,
+    "share": 111,
+    "isshare": false
+  }
+]

@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 import style from "./Register.module.css";
 
 export default function Register() {
-  
   let initialValues;
   if (localStorage.getItem("user")) {
     initialValues = JSON.parse(localStorage.getItem("user"));

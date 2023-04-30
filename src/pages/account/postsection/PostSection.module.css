@@ -89,3 +89,7 @@
   height: 100%;
   flex: 0.50;
 }
+.Buttons{
+  display: flex;
+  width: 100%;
+}
