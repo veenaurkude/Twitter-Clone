@@ -80,16 +80,25 @@
 }
 
 .btn {
-  margin-left: auto;
   margin-right: 10px;
 }
 
-.tweets{
-  /* border: 2px solid red; */
+.tweets {
   height: 100%;
-  flex: 0.50;
+  flex: 0.5;
 }
-.Buttons{
+.Buttons {
   display: flex;
   width: 100%;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 786px) {
+  .Buttons {
+    width: 13rem;
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+  }
 }

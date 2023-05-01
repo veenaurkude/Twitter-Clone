@@ -131,7 +131,7 @@ function Login() {
         <form>
           <TextField
             id="filled-basic"
-            label="phone,email or username"
+            label="email"
             variant="filled"
             sx={{
               color: "white",

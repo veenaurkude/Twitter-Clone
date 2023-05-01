@@ -12,7 +12,7 @@ import PollIcon from "@mui/icons-material/Poll";
 import IosShareIcon from "@mui/icons-material/IosShare";
 import { Button } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-// import PostHead from "./PostHead";
+
 
 export default function PostSection() {
   const [tweet, setTweet] = useRecoilState(tweetData);
@@ -262,7 +262,6 @@ export default function PostSection() {
 
   return (
     <div className={styles.tweets}>
-      {/* <PostHead/> */}
       {renderPosts()}
     </div>
   );

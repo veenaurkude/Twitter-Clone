@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-// import styles from "/PostHead.module.css";
+import { useEffect, useState } from "react";
 import styles from "./PostHead.module.css";
 import { Avatar, Button } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";

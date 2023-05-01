@@ -7,43 +7,52 @@ img {
 .icon {
   float: left;
   margin-top: 1.4rem;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   cursor: pointer;
 }
 
-h1{
+h1 {
   margin-top: 0;
 }
 
 .container {
-  display: inline-block;
   text-align: center;
   width: 29rem;
   height: 34.5rem;
   border-radius: 20px;
-  margin-left: 27rem;
-  /* margin-top: 5rem; */
+  margin: auto;
   background-color: black;
   border: 2px solid white;
   color: white;
 }
 
-.error{
+.error {
   color: red;
 }
 
+/* Media Query */
 
-/* @media only screen and (max-width: 768px) {
-  .container {
-  width: 100%;
-  margin: 0 auto;
-  height: auto;
-  border-radius: 0;
-  padding: 2rem 1rem;
+@media only screen and (max-width: 600px) {
+  img {
+    height: 10px;
+    padding-right: 5px;
+    width: 10px;
   }
-  
+
   .icon {
-  margin-top: 1rem;
-  margin-left: 0;
+    float: none;
+    margin-top: 1rem;
+    margin-left: 0;
   }
-  } */
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+}

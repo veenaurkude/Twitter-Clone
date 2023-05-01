@@ -37,10 +37,10 @@ const style = {
 };
 const LeftSideBar = () => {
   const [islogin, setisLogin] = useRecoilState(isLogin);
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const [logOutopen, setlogOutopen] = React.useState(false);
+  const [logOutopen, setlogOutopen] = useState(false);
   const handlelogOutOpen = () => setlogOutopen(true);
   const handlelogOutClose = () => setlogOutopen(false);
   let name = JSON.parse(localStorage.getItem("userData"));
@@ -121,7 +121,6 @@ const LeftSideBar = () => {
           {(popupState) => (
             <div>
               <Button
-                // variant="contained"
                 {...bindTrigger(popupState)}
                 sx={{
                   textTransform: "none",
@@ -137,7 +136,6 @@ const LeftSideBar = () => {
                 <div
                   style={{
                     display: "flex",
-                    // justifyContent: "space-between",
                     width: "100%",
                   }}
                 >
