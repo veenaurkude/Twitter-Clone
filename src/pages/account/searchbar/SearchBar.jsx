@@ -11,8 +11,11 @@ export default function SearchBar() {
         sx={{
           marginLeft: "2rem",
           width: "31rem",
-          borderRadius : '1rem',
-          border: "1px solid white", 
+          borderRadius: "1rem",
+          border: "1px solid white",
+          position: "fixed",
+          marginBottom: "4rem",
+          backgroundColor: "grey",
           "& label": { color: "white" },
           "& input": { color: "white" },
           "@media screen and (max-width: 786px)": {
@@ -20,7 +23,7 @@ export default function SearchBar() {
           },
         }}
         InputProps={{
-          endAdornment: <SearchIcon sx={{ color: "white" }}/>,
+          endAdornment: <SearchIcon sx={{ color: "white" }} />,
         }}
       />
     </>

@@ -13,17 +13,24 @@ import { useRecoilState } from "recoil";
 import { tweetData, userData } from "../../recoilAtom/Atom";
 
 function PostHead() {
-  const [activeButton, setActiveButton] = useState("For You");
+  const [btnfor, setbtnFor] = useState(true);
+  const [btnfollow, setbtnfollow] = useState(false);
   const [image, setImage] = useState(null);
   const [text, setText] = useState("");
   const [tweet, setTweet] = useRecoilState(tweetData);
   const [user, setUser] = useRecoilState(userData);
   // const islogin = false;
   const number = Math.floor(Math.random() * 900) + 100;
-  const handleButtonClick = (buttonName) => {
-    setActiveButton(buttonName);
-  };
 
+  const handleButtonClick = (buttonName) => {
+    if (buttonName == "foryou") {
+      setbtnFor(true);
+      setbtnfollow(false);
+    } else {
+      setbtnfollow(true);
+      setbtnFor(false);
+    }
+  };
   function handleChange(e) {
     setImage(URL.createObjectURL(e.target.files[0]));
     // console.log(image);
@@ -70,31 +77,14 @@ function PostHead() {
       <div className={styles.header}>
         <div className={styles.buttons}>
           <button
-            style={{
-              backgroundColor: "#1DA1F2",
-              color: "white",
-              padding: "0.5rem 1.5rem",
-              border: "none",
-              borderRadius: "9999px",
-              fontWeight: "bold",
-              marginRight: "1rem",
-              cursor: "pointer",
-            }}
-            onClick={() => handleButtonClick("For You")}
+            className={btnfor ? styles.HeadToggleBtn : styles.HeadBtn}
+            onClick={() => handleButtonClick("foryou")}
           >
             For You
           </button>
           <button
-            style={{
-              backgroundColor: "transparent",
-              color: "#1DA1F2",
-              padding: "0.5rem 1.5rem",
-              border: "1px solid #1DA1F2",
-              borderRadius: "9999px",
-              fontWeight: "bold",
-              cursor: "pointer",
-            }}
-            onClick={() => handleButtonClick("Following")}
+            className={btnfollow ? styles.HeadToggleBtn : styles.HeadBtn}
+            onClick={() => handleButtonClick("follow")}
           >
             Following
           </button>

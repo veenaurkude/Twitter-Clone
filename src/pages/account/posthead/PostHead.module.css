@@ -87,6 +87,28 @@ button.active {
 .lastBtn:hover {
   background-color: #f6f3f3;
 }
+.HeadBtn{
+      
+  background-color: transparent;
+  color: #1DA1F2;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #1DA1F2;
+  border-radius: 9999px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.HeadToggleBtn{
+
+  background-color: #1DA1F2;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #1DA1F2;
+  border-radius: 9999px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
 
 /* Media Query */
 

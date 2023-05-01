@@ -3,13 +3,23 @@ import { Button } from "@mui/material";
 import { useState } from "react";
 
 export function RightDownSection() {
-  const [isFollowing, setIsFollowing] = useState(false);
-
-  const handleFollowToggle = () => {
-    setIsFollowing(!isFollowing);
+  // const [isFollowing, setIsFollowing] = useState(false);
+  const handleFollowToggle = (index) => {
+    const updatedData = Object.keys(userData).reduce((acc, key) => {
+      if (userData[key].id === index + 1) {
+        acc[key] = { ...userData[key], isFollow: !userData[key].isFollow };
+      } else {
+        acc[key] = userData[key];
+      }
+      return acc;
+    }, {});
+    setuserData(updatedData);
   };
+  // const handleFollowToggle = () => {
+  //   setIsFollowing(!isFollowing);
+  // };
 
-  const userData = {
+  const users = {
     item1: {
       id: 1,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnxUOMCGqeaHpA9gD_0avsOdEsNIsT0dquZA&usqp=CAU",
@@ -35,11 +45,12 @@ export function RightDownSection() {
     //   username: "@Mark",
     // },
   };
+  const [userData, setuserData] = useState(users);
 
   return (
     <div className={style.main}>
       <h1>Who to follow</h1> <br />
-      {Object.keys(userData).map((key) => (
+      {Object.keys(userData).map((key, index) => (
         <div key={userData[key].id} className={style.contain}>
           <img
             src={userData[key].img}
@@ -66,9 +77,9 @@ export function RightDownSection() {
                 backgroundColor: "#42a5f5",
                 marginTop: "1rem",
               }}
-              onClick={handleFollowToggle}
+              onClick={() => handleFollowToggle(index)}
             >
-              {isFollowing ? "Following" : "Follow"}
+              {userData[key].isFollow ? "Following" : "Follow"}
             </Button>
           </div>
         </div>

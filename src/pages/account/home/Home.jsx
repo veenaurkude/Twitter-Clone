@@ -7,24 +7,26 @@ import { RightSection } from "../rightsection/RightSection";
 import { RightDownSection } from "../rightdownsection/RightDownSection";
 import { isLogin } from "../../RecoilAtom/Atom";
 import Grid from "@mui/material/Grid";
-import styles from './Home.module.css';
+import styles from "./Home.module.css";
 import TwitterIcon from "@mui/icons-material/Twitter";
 
 function Home() {
   const [islogin, setlogin] = useRecoilState(isLogin);
 
-  
-
   return (
     <Grid container spacing={2}>
       {!islogin && (
-        <h1 className={styles.heading}>
-          Welcome to home page
-        </h1>
-        
+        <TwitterIcon
+          sx={{
+            color: "skyblue",
+            margin: "auto",
+            fontSize: "10rem",
+            marginTop: "3rem",
+            width: "100%",
+          }}
+        />
       )}
-
-      {!islogin && <TwitterIcon sx={{color: "skyblue", marginTop: "7rem", marginLeft: "45rem", fontSize: "10rem"}}/>}
+      {!islogin && <h1 className={styles.heading}>Welcome to home page</h1>}
       <Grid item xs={3} md={2}>
         {islogin && <Sidebar />}
       </Grid>
@@ -40,7 +42,6 @@ function Home() {
       </Grid>
 
       {!islogin && <Footer />}
-      
     </Grid>
   );
 }

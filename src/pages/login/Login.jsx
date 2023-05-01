@@ -42,7 +42,6 @@ function Login() {
         username: uname,
       };
       if (user.password.toString() === password.toString()) {
-        alert("Login successful");
         setlogin(true);
         localStorage.setItem("userData", JSON.stringify(user1));
         navigate("/home");

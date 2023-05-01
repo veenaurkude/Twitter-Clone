@@ -8,6 +8,126 @@
       "id": "a2b9f2ce-a4bf-45bd-a545-5ee996ffa451",
       "name": "Verna Pouros"
     },
+    "likeCount": 23,
+    "iscomment": false,
+    "commentCount": 6,
+    "isretweet": false,
+    "reTweetsCount": 5,
+    "isLiked": false,
+    "poll": 4,
+    "ispoll": false,
+    "share": 39,
+    "isshare": false
+  },
+  {
+    "id": "679150f6-22d9-4e76-baba-6d4eebc5e408",
+    "content": "Suscipit natus ipsam. Tempora quis natus quod. Ipsum ipsa blanditiis veritatis. Facere quam iure impedit dicta. Non tenetur eaque maiores sed similique rem temporibus.",
+    "createdAt": "2023-02-05T17:02:22.286Z",
+    "image": "https://picsum.photos/1000/500?q=3",
+    "tweetedBy": {
+      "id": "43264d80-d036-4119-b113-76b109d1d285",
+      "name": "Lorena Koelpin"
+    },
+    "likeCount": 1000,
+    "iscomment": false,
+    "commentCount": 23,
+    "isretweet": false,
+    "reTweetsCount": 534,
+    "isLiked": false,
+    "poll": 32,
+    "ispoll": false,
+    "share": 32,
+    "isshare": false
+  },
+  {
+    "id": "c572b9d1-0e9f-44e0-ab3d-929fd4c81059",
+    "content": "Numquam voluptatem explicabo quos dolor praesentium eligendi officiis atque harum. Ut velit facere maxime sunt. Veritatis quo voluptate repellat delectus pariatur fugiat quibusdam tempora autem. Impedit provident velit facere alias fuga alias vero voluptatem qui.",
+    "createdAt": "2022-11-09T17:00:53.048Z",
+    "image": "https://picsum.photos/1000/500?q=7",
+    "tweetedBy": {
+      "id": "1b6c6b6d-8496-43b4-a0f1-836de4dcf3c8",
+      "name": "Tracy Grimes"
+    },
+    "likeCount": 4,
+    "iscomment": false,
+    "commentCount": 5,
+    "isretweet": false,
+    "reTweetsCount": 6,
+    "isLiked": false,
+    "poll": 7,
+    "ispoll": false,
+    "share": 9,
+    "isshare": false
+  },
+  {
+    "id": "dd5af61b-0720-4b93-92de-196acc1924d4",
+    "content": "Nemo deleniti officia tempore facere. Accusamus voluptas labore reprehenderit. Aliquam id suscipit soluta cupiditate quidem.",
+    "createdAt": "2022-11-11T17:35:48.985Z",
+    "image": "https://picsum.photos/1000/500?q=8",
+    "tweetedBy": {
+      "id": "63625388-b1a9-4a13-a06b-728220c5db18",
+      "name": "Cory Casper"
+    },
+    "likeCount": 563,
+    "iscomment": false,
+    "commentCount": 504,
+    "isretweet": false,
+    "reTweetsCount": 63,
+    "isLiked": false,
+    "poll": 200,
+    "ispoll": false,
+    "share": 9,
+    "isshare": false
+  },
+  {
+    "id": "7c3c57da-8f22-4137-aabc-1f112da1e902",
+    "content": "Illum repellat rerum. Laudantium exercitationem incidunt iste eius ab molestias. Officia delectus autem sed assumenda quos maxime. Esse dolorum pariatur necessitatibus ratione quibusdam deleniti facilis. Ex fugit mollitia.",
+    "createdAt": "2022-09-03T15:06:52.012Z",
+    "image": "https://picsum.photos/1000/500?q=9",
+    "tweetedBy": {
+      "id": "4165569d-0028-4a00-b25f-d4a5b0c2db46",
+      "name": "Sean Metz"
+    },
+    "likeCount": 563,
+    "iscomment": false,
+    "commentCount": 504,
+    "isretweet": false,
+    "reTweetsCount": 63,
+    "isLiked": false,
+    "poll": 200,
+    "ispoll": false,
+    "share": 9,
+    "isshare": false
+  },
+  {
+    "id": "480d7731-80c5-4686-9b33-0f40e01f6307",
+    "content": "Odio reiciendis vel sunt nam nesciunt quos aliquam praesentium odio. Esse atque dolores consequatur harum. Omnis at unde beatae commodi modi. Sit explicabo tempore incidunt et. Illo soluta itaque animi dolores voluptatem doloremque.",
+    "createdAt": "2022-08-21T09:52:27.811Z",
+    "image": "https://picsum.photos/1000/500?q=10",
+    "tweetedBy": {
+      "id": "7f30b82c-eb5b-437a-a990-90d908dd7281",
+      "name": "Anna Adams"
+    },
+    "likeCount": 563,
+    "iscomment": false,
+    "commentCount": 504,
+    "isretweet": false,
+    "reTweetsCount": 63,
+    "isLiked": false,
+    "poll": 200,
+    "ispoll": false,
+    "share": 9,
+    "isshare": false
+  },
+  {
+    "id": "88980195-4d01-4505-8ccb-076c1106ae7b",
+    "content": "Aspernatur accusamus porro perspiciatis occaecati assumenda modi. Eaque nesciunt quisquam quidem enim rem. Ab corrupti atque vero quos sed facilis odit nemo voluptas. Illo distinctio dolore accusantium. Sequi deserunt qui debitis explicabo. Ipsa atque suscipit repudiandae velit architecto.",
+    "createdAt": "2022-09-10T07:47:45.804Z",
+    "image": "https://picsum.photos/1000/500?q=2",
+    "tweetedBy": {
+      "id": "a2b9f2ce-a4bf-45bd-a545-5ee996ffa451",
+      "name": "Verna Pouros"
+    },
     "likeCount": 563,
     "iscomment": false,
     "commentCount": 504,
@@ -37,6 +157,86 @@
     "poll": 675,
     "ispoll": false,
     "share": 111,
+    "isshare": false
+  },
+  {
+    "id": "c572b9d1-0e9f-44e0-ab3d-929fd4c81059",
+    "content": "Numquam voluptatem explicabo quos dolor praesentium eligendi officiis atque harum. Ut velit facere maxime sunt. Veritatis quo voluptate repellat delectus pariatur fugiat quibusdam tempora autem. Impedit provident velit facere alias fuga alias vero voluptatem qui.",
+    "createdAt": "2022-11-09T17:00:53.048Z",
+    "image": "https://picsum.photos/1000/500?q=7",
+    "tweetedBy": {
+      "id": "1b6c6b6d-8496-43b4-a0f1-836de4dcf3c8",
+      "name": "Tracy Grimes"
+    },
+    "likeCount": 453,
+    "iscomment": false,
+    "commentCount": 45,
+    "isretweet": false,
+    "reTweetsCount": 564,
+    "isLiked": false,
+    "poll": 76,
+    "ispoll": false,
+    "share": 56,
+    "isshare": false
+  },
+  {
+    "id": "dd5af61b-0720-4b93-92de-196acc1924d4",
+    "content": "Nemo deleniti officia tempore facere. Accusamus voluptas labore reprehenderit. Aliquam id suscipit soluta cupiditate quidem.",
+    "createdAt": "2022-11-11T17:35:48.985Z",
+    "image": "https://picsum.photos/1000/500?q=8",
+    "tweetedBy": {
+      "id": "63625388-b1a9-4a13-a06b-728220c5db18",
+      "name": "Cory Casper"
+    },
+    "likeCount": 102,
+    "iscomment": false,
+    "commentCount": 87,
+    "isretweet": false,
+    "reTweetsCount": 12,
+    "isLiked": false,
+    "poll": 44,
+    "ispoll": false,
+    "share": 12,
+    "isshare": false
+  },
+  {
+    "id": "7c3c57da-8f22-4137-aabc-1f112da1e902",
+    "content": "Illum repellat rerum. Laudantium exercitationem incidunt iste eius ab molestias. Officia delectus autem sed assumenda quos maxime. Esse dolorum pariatur necessitatibus ratione quibusdam deleniti facilis. Ex fugit mollitia.",
+    "createdAt": "2022-09-03T15:06:52.012Z",
+    "image": "https://picsum.photos/1000/500?q=9",
+    "tweetedBy": {
+      "id": "4165569d-0028-4a00-b25f-d4a5b0c2db46",
+      "name": "Sean Metz"
+    },
+    "likeCount": 111,
+    "iscomment": false,
+    "commentCount": 21,
+    "isretweet": false,
+    "reTweetsCount": 32,
+    "isLiked": false,
+    "poll": 441,
+    "ispoll": false,
+    "share": 44,
+    "isshare": false
+  },
+  {
+    "id": "480d7731-80c5-4686-9b33-0f40e01f6307",
+    "content": "Odio reiciendis vel sunt nam nesciunt quos aliquam praesentium odio. Esse atque dolores consequatur harum. Omnis at unde beatae commodi modi. Sit explicabo tempore incidunt et. Illo soluta itaque animi dolores voluptatem doloremque.",
+    "createdAt": "2022-08-21T09:52:27.811Z",
+    "image": "https://picsum.photos/1000/500?q=10",
+    "tweetedBy": {
+      "id": "7f30b82c-eb5b-437a-a990-90d908dd7281",
+      "name": "Anna Adams"
+    },
+    "likeCount": 12,
+    "iscomment": false,
+    "commentCount": 32,
+    "isretweet": false,
+    "reTweetsCount": 3,
+    "isLiked": false,
+    "poll": 2,
+    "ispoll": false,
+    "share": 1,
     "isshare": false
   }
 ]
